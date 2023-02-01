@@ -1,0 +1,31 @@
+.form {
+    display: grid;
+    gap: 6px;
+}
+
+.form input {
+    height: 35px;
+    border-radius: 6px;
+    outline: none;
+    border: 1.5px solid grey;
+    padding: 0 8px;
+}
+
+.form>div {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0 4px;
+    align-items: center;
+}
+
+.form>div>label:first-of-type {
+    margin-right: 16px;
+}
+
+.form button {
+    background-color: #72cd72;
+    border: none;
+    border-radius: 6px;
+    min-height: 35px;
+    color: #fff;
+}
